@@ -25,7 +25,7 @@ int main(void)
 void add_purchase_detail(customer *c)
 {
     static int i=5;
-    c[0].name="Customer 1";
-    printf("%s", c[0].name);
+    c->name[0]="Customer 1";
+    printf("%s", c->name[0]);
     return ;
 }
